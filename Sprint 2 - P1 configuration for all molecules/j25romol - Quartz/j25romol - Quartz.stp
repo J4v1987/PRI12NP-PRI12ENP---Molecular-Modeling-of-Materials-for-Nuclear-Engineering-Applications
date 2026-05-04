@@ -3,8 +3,27 @@
   <Version>6.0</Version>
   <Reference>{A1C97A4B-8DD9-46AF-A1F9-C0164664B6C5}</Reference>
   <DocumentManager>
+    <Document>
+      <ID>{153EF3A4-57CD-4771-A85E-B449D68F6672}</ID>
+      <Paths>1</Paths>
+      <URL>.\3D Atomistic.xsd</URL>
+    </Document>
   </DocumentManager>
   <ViewRegistry>
+    <Frame>
+      <Active>true</Active>
+      <Left>29</Left>
+      <Top>29</Top>
+      <Width>455</Width>
+      <Height>202</Height>
+      <Maximized>true</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{153EF3A4-57CD-4771-A85E-B449D68F6672}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
   </ViewRegistry>
   <DocumentEventManager>
   </DocumentEventManager>
