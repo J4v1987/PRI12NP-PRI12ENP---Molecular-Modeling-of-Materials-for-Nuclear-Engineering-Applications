@@ -1,0 +1,56 @@
+data_3D\Atomistic
+_audit_creation_date              2026-04-10
+_audit_creation_method            'Materials Studio'
+_symmetry_space_group_name_H-M    'P1'
+_symmetry_Int_Tables_number       1
+_symmetry_cell_setting            triclinic
+loop_
+_symmetry_equiv_pos_as_xyz
+  x,y,z
+_cell_length_a                    4.9230
+_cell_length_b                    4.9230
+_cell_length_c                    5.4090
+_cell_angle_alpha                 90.0000
+_cell_angle_beta                  90.0000
+_cell_angle_gamma                 120.0000
+loop_
+_atom_site_label
+_atom_site_type_symbol
+_atom_site_fract_x
+_atom_site_fract_y
+_atom_site_fract_z
+_atom_site_U_iso_or_equiv
+_atom_site_adp_type
+_atom_site_occupancy
+1 - Si Si    0.46800   0.00000   0.00000   0.00000  Uiso   1.00
+ 2 - O O     0.41400   0.26400   0.12100   0.00000  Uiso   1.00
+ 3 - Si Si    0.00000   0.46800   0.66670   0.00000  Uiso   1.00
+ 4 - Si Si    0.53200   0.53200   0.33330   0.00000  Uiso   1.00
+ 5 - O O     0.73600   0.15000   0.78770   0.00000  Uiso   1.00
+6 - O  O     0.85000   0.58600   0.45430   0.00000  Uiso   1.00
+7 - O  O     0.26400   0.41400   0.54560   0.00000  Uiso   1.00
+8 - O  O     0.15000   0.73600   0.87890   0.00000  Uiso   1.00
+9 - O  O     0.58600   0.85000   0.21230   0.00000  Uiso   1.00
+loop_
+_geom_bond_atom_site_label_1
+_geom_bond_atom_site_label_2
+_geom_bond_distance
+_geom_bond_site_symmetry_2
+_ccdc_geom_bond_type
+1 - Si  2 - O  1.592   .     S
+1 - Si  5 - O  1.622   1_554 S
+1 - Si 8 - O   1.592   1_544 S
+1 - Si 9 - O   1.622   1_545 S
+ 2 - O  4 - Si  1.622   .     S
+ 3 - Si  5 - O  1.592   1_455 S
+ 3 - Si 6 - O   1.622   1_455 S
+ 3 - Si 7 - O   1.592   .     S
+ 3 - Si 8 - O   1.621   .     S
+ 4 - Si 6 - O   1.592   .     S
+ 4 - Si 7 - O   1.622   .     S
+ 4 - Si 9 - O   1.592   .     S
+ 5 - O  3 - Si  1.592   1_655 S
+ 5 - O 1 - Si  1.622   1_556 S
+6 - O   3 - Si  1.622   1_655 S
+8 - O  1 - Si  1.592   1_566 S
+9 - O  1 - Si  1.622   1_565 S
