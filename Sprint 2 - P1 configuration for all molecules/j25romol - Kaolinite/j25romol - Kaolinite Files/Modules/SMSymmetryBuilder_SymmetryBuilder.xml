@@ -19,9 +19,6 @@
 	<PROPERTY NAME="UseSpecialPositionsFlag">
 	<VALUE>false</VALUE>
 	</PROPERTY>
-	<PROPERTY NAME="FixFractionalFlag">
-	<VALUE>0</VALUE>
-	</PROPERTY>
 	</PROPERTIES>
 	</STATE>
 </LOGICITEM>
