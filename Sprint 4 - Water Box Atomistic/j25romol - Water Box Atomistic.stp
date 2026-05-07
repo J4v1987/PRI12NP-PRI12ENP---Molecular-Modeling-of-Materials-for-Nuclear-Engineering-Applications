@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+  <Version>6.0</Version>
+  <Reference>{2D0FDAA7-12D1-4E23-ACB9-76ACE98D37E4}</Reference>
+  <DocumentManager>
+    <Document>
+      <ID>{52F0AA0D-A15D-4E95-83C8-2A590E38E1AF}</ID>
+      <Paths>1</Paths>
+      <URL>.\3D Atomistic.xsd</URL>
+    </Document>
+    <Document>
+      <ID>{C52B95D2-EAB8-4E5B-8AF3-6A0D4E2905A8}</ID>
+      <Paths>1</Paths>
+      <URL>.\3D Atomistic_seed_no lattice.xsd</URL>
+    </Document>
+  </DocumentManager>
+  <ViewRegistry>
+    <Frame>
+      <Active>true</Active>
+      <Left>0</Left>
+      <Top>0</Top>
+      <Width>689</Width>
+      <Height>340</Height>
+      <Maximized>true</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{C52B95D2-EAB8-4E5B-8AF3-6A0D4E2905A8}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+    <Frame>
+      <Active>false</Active>
+      <Left>29</Left>
+      <Top>29</Top>
+      <Width>693</Width>
+      <Height>344</Height>
+      <Maximized>false</Maximized>
+      <Minimized>false</Minimized>
+      <View>
+        <Active>true</Active>
+        <DocumentID>{52F0AA0D-A15D-4E95-83C8-2A590E38E1AF}</DocumentID>
+        <Type>SVViewer3D.Viewer3DControl</Type>
+      </View>
+    </Frame>
+  </ViewRegistry>
+  <DocumentEventManager>
+  </DocumentEventManager>
+</Project>

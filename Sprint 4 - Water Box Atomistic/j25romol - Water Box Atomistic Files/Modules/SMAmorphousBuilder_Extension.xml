@@ -1,0 +1,313 @@
+<?xml version="1.0"?>
+<EXTENSION VERSION="6.0">
+<LOGICS>
+<LOGICITEM NAME="AmorphousBuilder">
+	<STATE NAME="AmorphousBuilder" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderClassicalEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="3DPeriodicvdWSummationMethod">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ComputeEnergyFirstDerivatives">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicElectrostaticEwaldComputeParameters">
+	<VALUE>2</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ConfiningFieldStrength">
+	<VALUE>10000</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ConfiningFieldShift">
+	<VALUE>2</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="3DPeriodicNonBond2BodyListLowerAtomLimit">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TreatMotionGroupsAsRigidBodies">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="doNotInvokePreparationComponent">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ThereAreNoVariantValenceTerms">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="AllowInteractionCompute">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfigBiasMonteCarlo">
+	<STATE NAME="SorptionConfigBiasMonteCarlo" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="NumberChemicalPotentialSteps">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="TorsionSamplingMethod">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConfinedLayer">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderConstruction">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderCreateLattice">
+	<STATE NAME="CreateLattice" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="LatticeType">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthA">
+	<VALUE>12.41712571879861</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthB">
+	<VALUE>12.41712571879861</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="LengthC">
+	<VALUE>12.41712571879861</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Volume">
+	<VALUE>1914.534666987319</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderFindTorsions">
+	<STATE NAME="Find Torsions" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="CheckBackboneOnly">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderIntraMolecularEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="NonPeriodicvdWAtomTruncationMethod">
+	<VALUE>2</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ComputeEnergyFirstDerivatives">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="doNotInvokePreparationComponent">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobHandler">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderJobLauncher">
+	<STATE NAME="SMXAmorphousBuilder.AmorphousBuilderJobLauncher" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="TaskTypeDescription">
+	<VALUE>Construct</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizer">
+	<STATE NAME="Minimize" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="EnergyServer">
+	<VALUE>AmorphousBuilderMinimizerEnergy</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ulUpdateModel">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderMinimizerEnergy">
+	<STATE NAME="ClassicalEnergy - Classical Energy Server" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderPacking">
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderServer">
+	<STATE NAME="AmorphousBuilderServer" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="InitialDensity">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="RampDensity">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderSystem">
+	<STATE NAME="SorptionSystem" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="SorbateID">
+	<VALUE>
+	<ITEM>{C52B95D2-EAB8-4E5B-8AF3-6A0D4E2905A8}</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateLoading">
+	<VALUE>
+	<ITEM>64</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateMoleRatio">
+	<VALUE>
+	<ITEM>1</ITEM>
+	</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="BoxStart">
+	<VALUE>0.05</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="BoxEnd">
+	<VALUE>0.95</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CheckCloseContacts">
+	<VALUE>false</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CheckRingSpearing">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CloseContactvdWScale">
+	<VALUE>0.25</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="CloseContactCacheSize">
+	<VALUE>10000</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="InteractionEnergyServer">
+	<VALUE>AmorphousBuilderClassicalEnergy</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="ClassicalEnergyServer">
+	<VALUE>AmorphousBuilderIntraMolecularEnergy</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="FindTorsionsServer">
+	<VALUE>AmorphousBuilderFindTorsions</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="AutoAssignTorsions">
+	<VALUE>true</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="SorbateTypeName">
+	<VALUE>2</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="AmorphousBuilderTrjMinimizer">
+	<STATE NAME="ForciteTrjHelper" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="ComputeServer">
+	<VALUE>AmorphousBuilderMinimizer</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="DescriptionSeed">
+	<VALUE>Geometry Optimization</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondIncrement">
+	<STATE NAME="BondIncrement" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="BondOrder">
+	<STATE NAME="UFFBondOrder" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGasteiger">
+	<STATE NAME="SMXCharge.ChargeGasteiger" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeGroups">
+	<STATE NAME="Charge Groups" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ChargeQEq">
+	<STATE NAME="SMXCharge.ChargeQEq" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldChooser">
+	<STATE NAME="ForciteForcefieldChooser" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="ForcefieldPreparation">
+	<STATE NAME="Forcefield preparation" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="ChargeAssignment">
+	<VALUE>1</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="OFFAtomTyping">
+	<STATE NAME="OFFAtomTyping" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="PotentialAtomTyping">
+	<STATE NAME="PotentialAtomTyping" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensity">
+	<STATE NAME="Ramp Density" VERSION="6.0">
+	<PROPERTIES>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityDynamics">
+	<STATE NAME="Dynamics" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="EnergyServer">
+	<VALUE>AmorphousBuilderMinimizerEnergy</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Owner">
+	<VALUE>Amorphous Cell</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="Pressure">
+	<VALUE>0.5</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="WriteLevel">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+<LOGICITEM NAME="RampDensityMinimize">
+	<STATE NAME="Minimize" VERSION="6.0">
+	<PROPERTIES>
+	<PROPERTY NAME="EnergyServer">
+	<VALUE>AmorphousBuilderMinimizerEnergy</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="MaxIterations">
+	<VALUE>300</VALUE>
+	</PROPERTY>
+	<PROPERTY NAME="WriteLevel">
+	<VALUE>0</VALUE>
+	</PROPERTY>
+	</PROPERTIES>
+	</STATE>
+</LOGICITEM>
+</LOGICS>
+</EXTENSION>
